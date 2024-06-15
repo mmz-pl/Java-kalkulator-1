@@ -23,7 +23,7 @@ public static void main(String[]args){
         }else if (znak == '*'){
             System.out.println("Wynik tego działania to: " + (a*b));
         }else if(znak == '/'){
-            if(a==0 || b==0){
+            if(b==0){
                 System.out.println("Nie można dzielić przez 0!");
             }else{
                 System.out.println("Wynik tego działania to: " + (a/b));
